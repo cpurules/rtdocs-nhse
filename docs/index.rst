@@ -3,19 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to NHSE's documentation!
-================================
+==================================
+Welcome to the NHSE documentation!
+==================================
 
 This is a user-created (i.e. unofficial) guide for using NHSE and covers both basic (e.g. inventory editing, villager injection) and advanced (e.g. field editor) topics.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-   
+   :hidden:
+   :caption: Reference
 
-Indices and tables
-==================
+   links
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: NHSE Basics
+
+   basics/item-editor
