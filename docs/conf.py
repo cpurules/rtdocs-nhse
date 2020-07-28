@@ -18,6 +18,9 @@ import sphinx_rtd_theme
 
 master_doc = 'index'
 
+def setup(app):
+    app.add_css_file('layout.css')
+
 
 # -- Project information -----------------------------------------------------
 
