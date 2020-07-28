@@ -15,28 +15,51 @@ The Item Editor
 
 The item editor has several fields:
 
-1. **Item Name** - this is an unlabeled dropdown, but is self explanatory
-2. **DIY Recipe** - if you set **Item Name** to "DIY recipe" this dropdown will appear.  It is also unlabeled, but self explanatory
-3. **Count** - the item count has two distinct meanings:
+#. **Item Name** - this is an unlabeled dropdown, but is self explanatory
+#. **DIY Recipe** - this is an unlabeled dropdown, but is self explanatory
 
-  * For **stackable** items (materials, Nook Miles Tickets, ...) the count is the stack size **minus one**
+   * This dropdown will only appear if **Item Name** is set to 'DIY recipe'
 
-    * This means that for a stack of 10 NMTs, you would set count to 9.  For 1 item, you would set count to 0
-    * If you try to set count higher than it can go for a certain item (e.g. 99 NMTs) then in-game you will only have 1
+#. **Count** - the item count has two distinct meanings:
 
-  * For **non-stackable items with variations** (furniture, clothing, ...) the count is the index of the variations
+   * For **stackable** items (materials, Nook Miles Tickets, ...) the count is the stack size **minus one**
 
-    * NHSE may or may not tell you what variety corresponding to the count value
-    * You can use either VillagerDB or the ACNH Data Spreadsheet to figure out which variation is which count value
+     * This means that for a stack of 10 NMTs, you would set count to 9.  For 1 item, you would set count to 0
+     * If you try to set count higher than it can go for a certain item (e.g. 99 NMTs) then in-game you will only have 1
 
-4. **Uses** - the number of times the item has been used.  This field should *only* be used for breakable tools
-5. **Flag0** - the first flag for the item.  For the purposes of basic item editing, this should be left as 0
-6. **Flag1** - the second flag for the item.  For the purposes of basic item editing, this should be left as 0.
+   * For **non-stackable items with variations** (furniture, clothing, ...) the count is the index of the variations
 
-  * This option may disappear after selecting an item name
+     * NHSE may or may not tell you what variety corresponding to the count value
+     * You can use either VillagerDB or the ACNH Data Spreadsheet to figure out which variation is which count value
 
-7. **Wrapped** - this checkbox may appear after selecting an item, and indicates whether or not the item is wrapped
-8. **Wrapping Type** - this dropdown appears after checking the **Wrapped** option and indicates how it is wrapped (present or paper)
-9. **Wrapping Color** - this dropdown appears if **Wrapped** is checked and **Wrapping Type** is set to 'WrappingPaper' and indicates the color of the wrapping paper
-10. **Show Item Name** - this checkbox appears after checking the **Wrapped** option, presumably shows the item name before it is unwrapped
+#. **Uses** - the number of times the item has been used
+
+   * This field should *only* be used for breakable tools
+
+#. **Flag0** - the first flag for the item
+
+   * For the purposes of basic item editing, this should be left as 0
+
+#. **Flag1** - the second flag for the item
+
+   * For the purposes of basic item editing, this should be left as 0
+   * This option may disappear after selecting an item name
+
+#. **Wrapped** - indicates whether or not the item is wrapped
+
+   * This checkbox only appears after selecting certain items
+
+#. **Wrapping Type** - indicates how the item is wrapped (present, paper, or delivery)
+
+   * This dropdown only appears after **Wrapped** is checked
+   * The meaning of 'delivery' is not currently known
+
+#. **Wrapping Color** - indicates the color of the wrapping paper
+
+   * This dropdown only appears if **Wrapped** is checked and **Wrapping Type** is set to 'WrappingPaper'
+
+#. **Show Item Name** - *presumably* shows the item name before it is unwrapped
+
+   * Needs confirmation/testing
+   * This dropdown only appears if **Wrapped** is checked
 
