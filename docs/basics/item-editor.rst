@@ -63,3 +63,54 @@ The item editor has several fields:
    * Needs confirmation/testing
    * This dropdown only appears if **Wrapped** is checked
 
+Editing Your Inventory / Storage
+---------------------------------
+
+To edit your **Inventory**, click the **Edit Items** button in the **Players** tab.
+
+To edit your **Storage**, click the **Edit Player...** button in the **Players** tab, and then click **Edit Storage**.
+
+Right-clicking an item slot in either your storage or inventory will give you three options:
+
+1. **View** - this will load the details of the item (name, count, etc.) into the item editor pane on the right
+
+2. **Set** - this will set the item data for the item slot to the data in the item editor pane on the right
+
+3. **Delete** - this will clear the item data for the item slot
+
+There are also keyboard/mouse shortcuts so that you don't have to right-click the item slots:
+
+1. **View** - Ctrl + click
+2. **Set** - Shift + click
+3. **Delete** - Alt + click
+4. **Clone** - Ctrl + Alt + click
+
+   * Cloning will copy the item that you Ctrl + Alt + click into all item slots
+
+Common Item Stack Amounts
+==========================
+
+Below are some common / desired items and their maximum in-game stack value.  Remember, in NHSE, count should be the
+**amount minus 1** - so if you want a full stack of Nook Miles Tickets, set the count to 9.
+
+.. csv-table:: Max Item Stacks
+   :header: "Item(s)", "Max Stack"
+   :align: center
+   
+   "Nook Miles Tickets", 10
+   "Wood (all)", 30
+   "Gold Nuggets", 30
+   "Iron Nuggets", 30
+   "Pearls", 30
+   "Cherry Blossom Petals", 10
+   "Eggs (all)", 30
+   "Fish Bait", 10
+   "Fruit (all)", 10
+   "Heart Crystals", 30
+   "Maple Leafs", 10
+   "Mushrooms (all)", 10
+   "Ornaments", 30
+   "Pine Cones", 30
+   "Rusted Parts", 10
+   "Snowflakes (all)", 10
+   "Star Fragments (all)", 10
