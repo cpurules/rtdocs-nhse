@@ -16,9 +16,10 @@ The Item Editor
 The item editor has several fields:
 
 #. **Item Name** - this is an unlabeled dropdown, but is self explanatory
-#. **DIY Recipe** - this is an unlabeled dropdown, but is self explanatory
+#. **Item Name 2** - this is an unlabeled dropdown, but is self explanatory
 
-   * This dropdown will only appear if **Item Name** is set to 'DIY recipe'
+   * This dropdown will only appear if **Item Name** is set to certain values
+   * Known values with the second drop down include:  DIY Recipe, Fossil, Message Bottle
 
 #. **Count** - the item count has two distinct meanings:
 
