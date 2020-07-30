@@ -69,7 +69,7 @@ Following these steps with the above files will result in a clean, stock village
 #. Select the villager you wish to replace using the **Villager Index** field
 #. Click **Load Villager**
 #. Browse for and select the ``.nhv`` file for the villager you wish to injection
-#. You will get a warning about the villager not originating from your data - click Yes to update the values
+#. You will get a warning about the villager not originating from your data - click **Yes** to update the values
 
    * This will make the villager act as though they are from your island and not from the person who created the
      villager files
