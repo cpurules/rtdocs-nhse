@@ -27,3 +27,4 @@ or flags mean.
    :caption: NHSE Basics
 
    basics/item-editor
+   basics/villager-editor
