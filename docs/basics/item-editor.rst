@@ -64,7 +64,7 @@ The item editor has several fields:
    * This dropdown only appears if **Wrapped** is checked
 
 Editing Your Inventory / Storage
----------------------------------
+=================================
 
 To edit your **Inventory**, click the **Edit Items** button in the **Players** tab.
 
@@ -72,18 +72,16 @@ To edit your **Storage**, click the **Edit Player...** button in the **Players**
 
 Right-clicking an item slot in either your storage or inventory will give you three options:
 
-1. **View** - this will load the details of the item (name, count, etc.) into the item editor pane on the right
-
-2. **Set** - this will set the item data for the item slot to the data in the item editor pane on the right
-
-3. **Delete** - this will clear the item data for the item slot
+#. **View** - this will load the details of the item (name, count, etc.) into the item editor pane on the right#
+#. **Set** - this will set the item data for the item slot to the data in the item editor pane on the right#
+#. **Delete** - this will clear the item data for the item slot
 
 There are also keyboard/mouse shortcuts so that you don't have to right-click the item slots:
 
-1. **View** - Ctrl + click
-2. **Set** - Shift + click
-3. **Delete** - Alt + click
-4. **Clone** - Ctrl + Alt + click
+#. **View** - Ctrl + click
+#. **Set** - Shift + click
+#. **Delete** - Alt + click
+#. **Clone** - Ctrl + Alt + click
 
    * Cloning will copy the item that you Ctrl + Alt + click into all item slots
 
