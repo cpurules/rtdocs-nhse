@@ -107,6 +107,7 @@ Field Item Editor.  You will see a list of the buildings and the map coordinates
 a building from the list will load the properties into the fields below (the Building Editor).
 
 Buildings include actual buildings (resident services, Nook's Cranny, houses, etc.) as well as bridges and inclines.
+For more information on using the Field Item Editor for bridges/inclines, see the next section.
 
 Building Editor Fields
 -----------------------
@@ -132,3 +133,54 @@ The following is a summary of the fields in the building editor and their purpos
 
 * **TypeArg** - purpose unknown, recommended to leave at 0
 * **UniqueID** - purpose unknown, recommended to leave at 0
+
+Adding a Building
+-----------------
+
+To add a building to your map, select one of the empty building slots in the list.  An empty building slot will
+appear as **000, 000 - None**.
+
+Once you have the empty slot selected, fill in the building editor fields with the information for your new building.
+
+It is not currently known if there are side effects to having e.g. multiple Nook's Crannys, multiple campsites, etc.
+
+Modifying a Building
+--------------------
+
+To modify a building, select the building you wish to modify from the list.  This will populate the building editor
+with the existing data for that building.  Then just edit the fields you want.  It is recommended that you only
+modify the placement of buildings, since incorrect values for angle/subtype may glitch the building.
+
+Removing a Building
+-------------------
+
+To remove a building, select the building you with to remove from the list.  This will populate the building editor
+with the existing data for that building.  Set *all* of the fields in the building editor to 0 for this building.  You
+will see the description in the list change to **000, 000 - None** which indicates a successful removal.
+
+Currently there is no way to mass-remove buildings in NHSE.
+
+Building Types
+--------------
+
+Below is a table that maps the building type ID to the description of the building
+
+.. csv-table:: Building Type Descriptions
+   :header: "Building Type ID", "Description"
+   :align: center
+   
+   0, None
+   1 - 8, Player 1 - Player 8 house
+   9 - 18, Vilalger 1 - Villager 10 house
+   19, Nook's Cranny
+   20, Resident Services Building
+   21, Museum
+   22, Airport
+   23, Resident Services Tent
+   24, Able Sisters
+   25, Campsite
+   26, Bridge
+   27, Incline
+   28, Redd's Boat
+   29, Harv's Studio
+   30+, Unused
