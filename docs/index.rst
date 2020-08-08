@@ -28,3 +28,9 @@ or flags mean.
 
    basics/item-editor
    basics/villager-editor
+
+.. toctree::
+   :maxdepth: 1
+   :caption: NHSE Advanced topics
+
+   advanced/map-editor
