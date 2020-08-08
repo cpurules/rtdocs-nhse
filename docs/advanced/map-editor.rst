@@ -78,3 +78,57 @@ The options available in the bulk spawner are as follows:
 
     * To spawn all DIYs, use the default of 0 to 9999; non-existent DIYs will not spawn
     * You can find resources with the DIY item IDs on the :doc:`../links` page
+
+Bulk Item Removal
+-----------------
+
+NHSE provides functionality to bulk-remove items of a specific type (furniture, flowers, etc.) or of all types
+from your map.
+
+To access the bulk removal options, click on the **Remove Items...** button, and choose the type of item you
+wish to clear from the map.  By default this will only remove items from the visible portion of the map.  To
+remove the selected item type from the *whole* map, hold the **Shift** key while clicking the item type in the
+button dropdown.
+
+Flower Watering
+----------------
+
+NHSE provides functionality to automatically water all of the flowers on your map.
+
+To access the flower waterer, click on the **Remove Items...** button and choose **Water Flowers**.  By default
+this will only water flowers on the visible portion of the map.  To water flows on the *whole* map, hold the
+**Shift** key while clicking the **Water Flowers** option in the button dropdown.
+
+Building Manipulation
+=====================
+
+The list of buildings on your island, including the building options, is found on the **Buildings** tab of the
+Field Item Editor.  You will see a list of the buildings and the map coordinates where they are placed.  Choosing
+a building from the list will load the properties into the fields below (the Building Editor).
+
+Buildings include actual buildings (resident services, Nook's Cranny, houses, etc.) as well as bridges and inclines.
+
+Building Editor Fields
+-----------------------
+
+The following is a summary of the fields in the building editor and their purpose:
+
+* **Building Type** - the type of building.  This is what distinguishes e.g. the museum from Nook's Cranny from a
+  villager's house.  A mapping of the building IDs can be found at the end of this section.
+* **X/Y** - the map coordinate of the building.  The origin (0, 0) of the map is the upper-left corner; that is,
+  increasing Y will move the building towards the bottom of the map, and increasing X will move the building
+  towards the right of the map
+* **Angle** - the angle the building is placed at
+  
+  * This is only relevant for bridges and inclines; for actual buildings, it should be set to 0
+
+* **Bit** - purpose unknown, recommended to leave at 0
+* **Type** - the building subtype
+
+  * This is only relevant for bridges and inclines, and determines what style of bridge/incline it is.  For actual
+    buildings, it should be set to 0
+  * Note that the same kind of bridge can have multiple subtypes; this is because bridges generally have a slightly
+    different design based on how many tiles the bridge spans (4 v.s. 5)
+
+* **TypeArg** - purpose unknown, recommended to leave at 0
+* **UniqueID** - purpose unknown, recommended to leave at 0
