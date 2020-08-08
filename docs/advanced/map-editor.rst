@@ -184,3 +184,46 @@ Below is a table that maps the building type ID to the description of the buildi
    28, Redd's Boat
    29, Harv's Studio
    30+, Unused
+  
+Bridge and Incline Manipulation
+===============================
+
+Bridges and inclines are considered buildings in-game and can be edited in the same manner.  It is strongly
+recommended that you read through the previous section (Building Manipulation) for some background info.
+
+Bridges have a building type of **26** while inclines have a building type of **27**.  Bridges and inclines
+also have an **angle** (the orientation they are placed) as well as a **subtype** (the type of bridge/incline).
+It is important to note that since bridges may span either 4 or 5 grid squares, individual bridge types have
+multiple subtypes (e.g. the iron bridge can have a type of either 25 (4-tile bridge) or 40 (5-tile bridge)).
+
+Lists for the bridge/incline subtypes and the orientation mapping are included at the end of this section.
+
+Bridge and Incline ID Mappings
+-------------------------------
+
+Below are tables that map the subtype/angle value for bridges and inclines to a description of the bridge/incline
+it will generate.  **This information may be incomplete/incorrect.**
+
+.. csv-table:: Incline Subtypes and Descriptions
+   :header: "Incline Type ID", "Description"
+   :align: center
+
+   WIP, WIP
+
+.. csv-table:: Incline Angles and Descriptions
+   :header: "Incline Angle ID", "Description"
+   :align: center
+
+   WIP, WIP
+   
+.. csv-table:: Bridge Subtypes and Descriptions
+   :header: "Bridge Type ID", "Description"
+   :align: center
+
+   WIP, WIP
+   
+.. csv-table:: Bridge Angles and Descriptions
+   :header: "Bridge Angle ID", "Description"
+   :align: center
+
+   WIP, WIP
