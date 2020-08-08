@@ -10,3 +10,4 @@ Below you can find links to the NHSE application as well as various reference do
 * Injecting Villagers:  `thread <https://gbatemp.net/threads/tutorial-on-how-to-use-the-nhse-house-editor-for-perfect-villager-injection.563202/>`_ (includes .nhv and .nhvh files)
 * Item Database:  `VillagerDB <https://villagerdb.com/>`_ (useful for item data)
 * ACNH Data Spreadsheet:  `Google sheet <https://docs.google.com/spreadsheets/d/13d_LAJPlxMa_DubPTuirkIV4DERBMXbrWQsmSh8ReK4/edit>`_  (useful for item data)
+* ACNH Item Data: `Item and DIY IDs <https://mpql.net/tools/acnh/codes/item-list/>`_ (useful for DIY IDs)
