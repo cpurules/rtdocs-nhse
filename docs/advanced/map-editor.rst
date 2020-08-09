@@ -227,3 +227,21 @@ it will generate.  **This information may be incomplete/incorrect.**
    :align: center
 
    WIP, WIP
+
+Terrain Manipulation
+====================
+
+NHSE allows you to modify the terrain of your island, to a certain extent.  It is strongly recommended that you
+read the `NHSE wiki <https://github.com/kwsch/NHSE/wiki/Field-Item-Editor>`_ to get a sense of what is editable
+(most island squares) and what is not (beach/ocean squares, airport dock, etc.)
+
+It is very possible when editing the terrain that you will end up with glitched tiles.  Some of these may be
+graphical glitches only (e.g. a sharp edge at the end of a river mouth) and others may impact playability (e.g.
+tiles that cannot be walked over).
+
+Because terraforming via NHSE is not likely to be significantly quicker than terraforming in-game and has a
+high chance of causing glitches of some sort, this section will only cover a few common tasks.
+
+Flattening Your Island
+----------------------
+
